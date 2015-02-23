@@ -41,4 +41,5 @@ gem 'spring',        group: :development
 
 gem 'dotenv-rails'
 
-gem 'mysql2'
+#gem 'mysql2'
+gem 'pg'
