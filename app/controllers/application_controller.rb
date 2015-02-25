@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
   def index
     summoner_name = 'BullSchlitz79'
-#    url = URI.parse("https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/#{summoner_name}?api_key=b75dd34f-46a6-44b8-9633-35a95fc51fec")
+    url = URI.parse("https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/#{summoner_name}?api_key=b75dd34f-46a6-44b8-9633-35a95fc51fec")
 #    req = Net::HTTP::Get.new(url.to_s)
 #    http = Net::HTTP.new(url.host, url.port)
 #    http.use_ssl = true
